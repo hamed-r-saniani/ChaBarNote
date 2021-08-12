@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{1719882E-514B-4A1E-9F9A-603E24056EC5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "Service\Service.csproj", "{42627F85-F226-4EA1-96F6-0A5B07FBEDE3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{04AED91A-C530-483A-B2E6-4ADE4A53222C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "WebApi\WebApi.csproj", "{AD7CC81B-EBEF-4444-BA46-EF5632856CA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChaBarNote.Test", "ChaBarNote.Test\ChaBarNote.Test.csproj", "{9323A133-B309-46DD-A7CD-AECBE5C658CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1719882E-514B-4A1E-9F9A-603E24056EC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1719882E-514B-4A1E-9F9A-603E24056EC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1719882E-514B-4A1E-9F9A-603E24056EC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1719882E-514B-4A1E-9F9A-603E24056EC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42627F85-F226-4EA1-96F6-0A5B07FBEDE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42627F85-F226-4EA1-96F6-0A5B07FBEDE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42627F85-F226-4EA1-96F6-0A5B07FBEDE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42627F85-F226-4EA1-96F6-0A5B07FBEDE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04AED91A-C530-483A-B2E6-4ADE4A53222C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04AED91A-C530-483A-B2E6-4ADE4A53222C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04AED91A-C530-483A-B2E6-4ADE4A53222C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04AED91A-C530-483A-B2E6-4ADE4A53222C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD7CC81B-EBEF-4444-BA46-EF5632856CA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD7CC81B-EBEF-4444-BA46-EF5632856CA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD7CC81B-EBEF-4444-BA46-EF5632856CA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD7CC81B-EBEF-4444-BA46-EF5632856CA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9323A133-B309-46DD-A7CD-AECBE5C658CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9323A133-B309-46DD-A7CD-AECBE5C658CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9323A133-B309-46DD-A7CD-AECBE5C658CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9323A133-B309-46DD-A7CD-AECBE5C658CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03DEDDF6-D19C-4494-9170-8424C61A19D7}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/chargoonmobileintern5
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = DataAccess\\DataAccess.csproj
+		SccProjectName1 = DataAccess
+		SccLocalPath1 = DataAccess
+		SccProjectUniqueName2 = Domain\\Domain.csproj
+		SccProjectName2 = Domain
+		SccLocalPath2 = Domain
+		SccProjectUniqueName3 = Service\\Service.csproj
+		SccProjectName3 = Service
+		SccLocalPath3 = Service
+		SccProjectUniqueName4 = WebApi\\WebApi.csproj
+		SccProjectName4 = WebApi
+		SccLocalPath4 = WebApi
+		SccProjectUniqueName5 = ChaBarNote.Test\\ChaBarNote.Test.csproj
+		SccProjectName5 = ChaBarNote.Test
+		SccLocalPath5 = ChaBarNote.Test
+	EndGlobalSection
+EndGlobal
